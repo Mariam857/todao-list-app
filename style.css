@@ -1,0 +1,95 @@
+
+ @media only screen and (max-width:767px) {
+
+   
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBMZNJGCit37FB_8rYJNbDZP9eTbuVnd8hhg&usqp=CAU);
+      }
+      #main_cont{
+              display: grid;
+              grid-template-rows: 10vh 20vh 30vh 15vh 25vh;
+              grid-template-columns: 1fr;
+          
+             gap: 6px;
+             margin: 1px;                      
+          }
+      #head{
+         
+          align-self: center;
+          text-align: center;
+          background-color: rgb(199, 133, 87);
+          padding: 10px;
+      }
+      #h{
+          color: rgb(15, 14, 14);
+      }
+      #im{
+          grid-area: im;
+          padding:3px;
+          bottom: 10px;
+      }
+      #todo__form {
+          grid-area: todo__form ;
+       
+          align-self: center;
+          display: flex;
+          flex-direction: column;
+          margin: 8px;
+      
+      }
+      
+      #todo__form *{
+          padding: 3vh;
+      }
+      
+      #butt {
+          margin: 2vh;
+          width: 30vw;
+          align-self: center;
+          background-color: rgb(131, 93, 44);
+          size: 20px;
+          font-size: 20px;
+          color: rgb(248, 245, 245);
+      }
+      
+      #msg__cont{
+         align-self: center;
+          width: 100%;
+          text-align: center;
+          font-size: 5vh
+      }
+      #text{
+        font-size: 35px;
+        color:rgb(22, 12, 12);
+
+       text-align: center;
+     align-items: center;
+    }
+      .item__ok{   
+          border: 3px solid rgb(180, 97, 2);
+          width: 100%;
+      align-items: center;
+      }
+      .item__err{
+          grid-area: item__err;
+          border: 2px solid rgb(92, 43, 11);
+          color: rgb(128, 17, 41);
+          font-size: large;
+          margin: 2vh;
+          padding: 1vh;
+          width: 90%;
+          align-self: center;
+      }
+     #copy{
+        font-size: 24px;
+         text-align: center;
+         align-items: center;
+     }
+     #textlist{
+         font-size: 30px;
+     }
+     #foot{
+       margin: 5px;
+       padding-top: 90%;
+     }
+    }
